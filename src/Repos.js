@@ -4,7 +4,7 @@ class Repos extends Component {
     render() {
         return (
             <div>
-                <h2>Repo – {this.props.params.userName}</h2>
+                <h2>Repo – <span style={{textTransform: "capitalize"}}>{this.props.params.userName}</span></h2>
                 <p>{this.props.params.repoName}</p>
             </div>
         );

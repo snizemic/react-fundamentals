@@ -15,6 +15,7 @@ class App extends Component {
           <li><Link to="/about" activeClassName="active">About</Link></li>
           <li><Link to="/repos/karel/programy" activeClassName="active">Karel</Link></li>
           <li><Link to="/repos/jirka/databaze" activeClassName="active">Jirka</Link></li>
+          <li><Link to="/func" activeClassName="active">Func</Link></li>
         </ul>
         <div>
           {this.props.children || Home}

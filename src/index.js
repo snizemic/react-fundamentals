@@ -5,6 +5,7 @@ import App from './App';
 import Home from './Home';
 import About from './About';
 import Repos from './Repos';
+import Func from './Func';
 
 
 ReactDOM.render((
@@ -13,6 +14,7 @@ ReactDOM.render((
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
       <Route path="/repos/:userName/:repoName" component={Repos} />
+      <Route path="/func" component={Func} />
     </Route>
   </Router>
 ), document.getElementById('root'));
